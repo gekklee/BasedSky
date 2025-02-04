@@ -9,7 +9,7 @@
     },
     "dependencies": {
       "electron": "^27.0.0",
-      "@atproto/api": "^1.0.0"
+      "@atproto/api": "^0.13.32"
     },
     "devDependencies": {
       "typescript": "^5.0.0"
