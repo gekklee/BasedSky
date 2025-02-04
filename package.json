@@ -1,0 +1,28 @@
+{
+    "name": "basedsky",
+    "version": "1.0.0",
+    "description": "An Electron client for Bluesky using AT Protocol.",
+    "main": "main.ts",
+    "scripts": {
+      "start": "electron .",
+      "build": "tsc"
+    },
+    "dependencies": {
+      "electron": "^27.0.0",
+      "@atproto/api": "^1.0.0"
+    },
+    "devDependencies": {
+      "typescript": "^5.0.0"
+    },
+    "tsconfig": {
+      "compilerOptions": {
+        "target": "ESNext",
+        "module": "CommonJS",
+        "outDir": "dist",
+        "rootDir": "src",
+        "strict": true,
+        "esModuleInterop": true
+      }
+    }
+  }
+  
