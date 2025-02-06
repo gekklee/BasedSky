@@ -15,7 +15,7 @@ app.whenReady().then(() => {
         }
     });
 
-    mainWindow.loadFile('index.html');
+    mainWindow.loadFile('src/index.html');
 });
 
 ipcMain.handle('login', async (_event, { handle, appPassword }) => {
