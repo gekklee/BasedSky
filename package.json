@@ -4,25 +4,24 @@
     "description": "An Electron client for Bluesky using AT Protocol.",
     "main": "main.ts",
     "scripts": {
-      "start": "electron .",
-      "build": "tsc"
+        "start": "electron .",
+        "build": "tsc"
     },
     "dependencies": {
-      "electron": "^27.0.0",
-      "@atproto/api": "^0.13.32"
+        "@atproto/api": "^0.13.32",
+        "electron": "^27.0.0"
     },
     "devDependencies": {
-      "typescript": "^5.0.0"
+        "typescript": "^5.7.3"
     },
     "tsconfig": {
-      "compilerOptions": {
-        "target": "ESNext",
-        "module": "CommonJS",
-        "outDir": "dist",
-        "rootDir": "src",
-        "strict": true,
-        "esModuleInterop": true
-      }
+        "compilerOptions": {
+            "target": "ESNext",
+            "module": "CommonJS",
+            "outDir": "dist",
+            "rootDir": "src",
+            "strict": true,
+            "esModuleInterop": true
+        }
     }
-  }
-  
+}
