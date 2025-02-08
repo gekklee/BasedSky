@@ -4,6 +4,9 @@ import { BskyAgent } from '@atproto/api';
 
 let mainWindow: BrowserWindow | null = null;
 
+app.commandLine.appendSwitch('disable-gpu');
+app.commandLine.appendSwitch('disable-software-rasterizer');
+
 app.whenReady().then(() => {
     mainWindow = new BrowserWindow({
         width: 800,
